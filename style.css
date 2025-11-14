@@ -120,6 +120,9 @@ p {
 .justify-flexstart {
     justify-content: flex-start;
 }
+.justify-end {
+justify-content: flex-end;
+}
 
 .align-center {
     align-items: center;
@@ -208,6 +211,10 @@ p {
 
 .padding-20 {
     padding: 20px;
+}
+
+.padding-50 {
+    padding: 50px;
 }
 
 .gap-40 {
@@ -424,6 +431,10 @@ span.goldyProjet {
 
 header {
     background-color: #E3BB43;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 /*----------------------------------------------------------------------*/
@@ -442,7 +453,7 @@ footer {
 
 /* section hero */
 .section-hero {
-    background-image: url(asset/Banner.jpg);
+    background-image: url(asset/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -489,21 +500,64 @@ footer {
 /*Pour aligner les 3 cards, faire comporter les cards comme des conteneurs*/
 .card-utilisateur {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 18px;
     max-width: 250px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.card-utilisateur1 {
+    background-color:#ADBE96;
+    border-radius: 20px;
+    padding: 18px;
+    max-width: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
+.card-utilisateur3 {
+    background-color:#E3BB43;
+    border-radius: 20px;
+    padding: 18px;
+    max-width: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
+    .card-utilisateur2 {
+    background-color:#194337;
+    border-radius: 20px;
+    padding: 18px;
+    max-width: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
 
 /*----------------------------------------------------------------------*/
 /*  */
 
+.section-01 {
+    background-color: #194337;
+}
 
+.section-02 {
+    background-color: #E3BB43;
+}
 
+.section-03 {
+    background-color:#ADBE96;
+}
 /*----------------------------------------------------------------------*/
 /*  */
 
@@ -548,4 +602,11 @@ select {
 }
 
 
+.WTF-rendre-la-dedans {
+    object-fit: cover;
+
+
+    /* or
+  object-fit: cover; */
+}
 /*----------------------------------------------------------------------*/
